@@ -13,5 +13,14 @@ simple query periods in Day, Week, Month, Year
 
 ## examples
 
-    todo
+```javascript
 
+const dateutils = require('node-dateutils');
+
+// date: yyyy-mm-dd
+// week: GGGG-[W]WW
+// month: yyyy-mm
+// year: yyyy
+// history: history
+
+```
