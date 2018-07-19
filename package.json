@@ -1,0 +1,24 @@
+{
+  "name": "dateutils",
+  "version": "0.0.1",
+  "description": "datetime utils",
+  "author": "dodoru <dodoru@foxmail.com>",
+  "license": "MIT",
+  "repository": "dodoru/node-dateutils",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "keywords": [
+    "nodejs",
+    "date",
+    "dateutils",
+    "periods"
+  ],
+  "engines": {
+    "node": ">= 8.0"
+  }
+}
