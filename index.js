@@ -206,6 +206,16 @@ const self = module.exports = {
         },
     },
 
+    periodScopeTs: (period, key) => {
+        const func = self.periodScope[period];
+        if (func) {
+            const {start, end} = func(key);
+            const start_ts = start.valueOf();
+            const end_ts = end.valueOf();
+            return {start_ts, end_ts};
+        }
+    },
+
     periodScopeDate: (period, key) => {
         const func = self.periodScope[period];
         if (func) {

@@ -1,6 +1,6 @@
 {
   "name": "node-dateutils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "datetime utils",
   "author": "dodoru <dodoru@foxmail.com>",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "moment": "^2.22.2"
+    "moment": "^2.19.4"
   },
   "keywords": [
     "nodejs",
